@@ -19,7 +19,7 @@ public class TC01_LoginPageTest extends TestBase {
 		loginPage = new LoginPage();
 	}
 	
-	@Test (priority =1)
+	@Test (priority =2)
 	public void validateLoginApplicationTest() 
 	{
 		assertEquals(loginPage.loginApplication(), "Flight Details");
