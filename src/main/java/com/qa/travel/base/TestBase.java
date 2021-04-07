@@ -10,8 +10,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+//import org.testng.annotations.AfterSuite;
+//import org.testng.annotations.BeforeSuite;
 
 import com.qa.travel.utility.ConfigDataProvider;
 
@@ -93,7 +93,7 @@ public class TestBase {
 			}
 		}
 
-		@BeforeSuite
+	//	@BeforeSuite
 		public void setUpSuite() 
 		{
 			//	excelData = new ExcelDataProvider();
@@ -101,7 +101,7 @@ public class TestBase {
 
 		}
 
-		@AfterSuite
+	//	@AfterSuite
 		public void tearDownSuite() 
 		{
 			this.quitBrowser(driver);
